@@ -1,0 +1,15 @@
+* C:\Users\owenr\Documents\EE251\Narrowband.asc
+XU1 Vc Vout 0 X2SC2753
+R1 N002 Vc 10
+R2 Vc 0 10
+L1 N002 Vout 11n
+C3 N002 Vout 240p
+R4 N001 N002 1
+V1 N001 0 12
+R6 Vout 0 50
+V2 Vc 0 SINE(0 0.1 98MEG) AC 0.1 Rser=50
+R3 N002 Vout 1.4
+.ac dec 100 1k 1G
+.lib C:\Users\owenr\Documents\EE251\2SC2753.lib
+.backanno
+.end
