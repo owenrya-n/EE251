@@ -11,7 +11,7 @@ WINDOW 0 0 -40 Bottom 2
 WINDOW 3 0 40 Top 2
 SYMATTR Prefix X
 SYMATTR Value X2SC2753
-SYMATTR ModelFile C:\Users\owenr\Documents\EE251\2SC2753.lib
+SYMATTR ModelFile C:/Users/jonathansharir-smith/Desktop/251SPICE/Lab2/narrowband\2SC2753.lib
 PIN -48 0 LEFT 8
 PINATTR PinName c1
 PINATTR SpiceOrder 1
