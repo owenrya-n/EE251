@@ -1,0 +1,18 @@
+* C:\Users\owenr\Documents\EE251\broadband.asc
+RC N001 N003 250
+VCC N001 0 10
+V2 N005 0 SINE() AC 1
+CS N007 N006 100
+RF N002 N007 1000
+RB1 N007 0 1k
+XU1 N003 N007 N004 X2SC2753
+RS N006 N005 50
+RE 0 N004 3.9
+RL P001 0 50
+RB2 N003 N002 3.3k
+CB N003 N002 100
+CL N003 P001 100
+.ac dec 1000 5meg 5g
+.lib C:/Users/jonathansharir-smith/Desktop/251SPICE/Lab2/narrowband\2SC2753.lib
+.backanno
+.end
