@@ -1,0 +1,18 @@
+* C:\Users\owenr\Documents\EE251\Broadband Owen.asc
+V2 N004 0 SINE() AC 0.12
+XU1 N003 N006 N007 X2SC2753
+R1 N006 0 750
+R2 N002 N006 550
+R3 N003 N002 2750
+C1 N003 N002 1
+C2 vout N003 1µ
+C3 N006 N005 1µ
+R5 N005 N004 50
+R6 0 vout 500
+R7 0 N007 1.5
+V1 N001 0 10
+R4 N001 N003 500
+.ac dec 1000 30k 400meg
+.lib C:\Users\owenr\Documents\EE251\2SC2753.lib
+.backanno
+.end
