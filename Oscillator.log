@@ -1,0 +1,28 @@
+Circuit: * C:\Users\owenr\Documents\EE251\Oscillator.asc
+
+WARNING: Node NC_01 is floating.
+WARNING: Node VOUT is floating.
+ERROR: Node NC_02 is floating and connected to current source I1
+
+WARNING: Less than two connections to node nc_01.  This node is used by c3.
+WARNING: Less than two connections to node vout.  This node is used by c5.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Feb 21 20:40:29 2024
+Total elapsed time: 0.157 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 28168
+traniter = 28159
+tranpoints = 13120
+accept = 8848
+rejected = 4272
+matrix size = 39
+fillins = 18
+solver = Normal
+Avg thread counts: 1.0/1.1/1.1/1.0
+Matrix Compiler1: 3.01 KB object code size  1.1/0.5/[0.3]
+Matrix Compiler2: 3.39 KB object code size  0.4/1.2/[0.4]
+
