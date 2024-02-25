@@ -1,0 +1,24 @@
+Circuit: * C:\Users\owenr\Documents\EE251\Oscillator - Copy - Copy.asc
+
+ERROR: Node N006 is floating and connected to current source I1
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Feb 25 13:54:37 2024
+Total elapsed time: 2.787 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 243185
+traniter = 243178
+tranpoints = 115900
+accept = 77165
+rejected = 38735
+matrix size = 16
+fillins = 10
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1: 1.63 KB object code size  0.7/0.3/[0.3]
+Matrix Compiler2: 1.61 KB object code size  0.3/0.4/[0.2]
+
